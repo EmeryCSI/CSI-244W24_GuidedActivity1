@@ -94,11 +94,12 @@ We will complete this assignment together in class. If you are having problems w
     console.log("Hello from helloworld.js");
     ```
 
-11. Now from the terminal run `node helloworld.js`, Take a screenshot of the output and save to the screenshots folder. ![Guided Activity Part 2 - Step 9](https://github.com/EmeryCSI/CSI248F23_GuidedActivity1/assets/90283966/8f4f9ddc-bfb1-43fa-ba24-35a23d79b328)
+11. Now from the terminal run `node helloworld.js`
+12. Notice that you have now run JavaScript code outside of the web browser. This is what NodeJS allows us to do.
 
-12. Type `git add .` to stage all updated files. 
-13. Type `git commit -m "Guided Activity 1 Complete"`.
-14. Type `git push` to push the changes to GitHub.
+13. Type `git add .` to stage all updated files. 
+14. Type `git commit -m "Guided Activity 1 Complete"`.
+15. Type `git push` to push the changes to GitHub.
 
 If you have any questions about this assignment please reach out to myself or our TA for this course. 
 
