@@ -11,25 +11,62 @@ This repository is a part of CSI-248 at Renton Technical College.
 ## Guided Activity Part 1 Using the Command Line
 We will complete this assignment together in class. If you are having problems with this assignment please refer to the lecture recording.
 
-1. Clone the repository to your local machine. (Do not use OneDrive for assignments in this course!)
+1. Clone the repository to your local machine.
 2. Make note of the folder where you cloned the repository.
-3. After you have cloned this repository navigate to your local repository using the cd command.
-4. Open the repository in Visual Studio Code by typing `code .`. ![image](https://github.com/EmeryCSI/CSI248F23_GuidedActivity1/assets/90283966/e9c402d6-ac7c-41e3-a383-0ef2c26b0cb9)
+3. Launch powershell by hitting the windows key and typing `powershell` and then hit enter.
+4. Once inside of powershell you can your current directory with the `pwd` command. This stands for print working directory.
+5. You can view the contents of the current directory with the `ls` command
+6. In order to change to a different working directory you can use the `cd` command. This stands for change directory.
+7. `cd` can be used to go to a specific folder, for example.
 
-5. Open the terminal in Visual Studio Code by hitting ctrl + \` or cmd + \` on mac. 
-6. Create a new folder called ScreenShots ![image](https://github.com/EmeryCSI/CSI248F23_GuidedActivity1/assets/90283966/1a57771e-4ed9-4e5d-8a7b-cad1d8139b2f)
+    ```powershell
+    cd c:\RTC\CSI-244\Week1\
+    ```
+8. `cd` can also be used to back out of a folder. `cd ..` will take you up one folder. For example if you are currently in c:\Users\Jemery the `cd..` command will take you to c:\Users\
 
-7. Take a screenshot of your Visual Studio Code and Terminal Window and save in it your Screenshots folder.
-8. For Windows, type `new-item hello.txt` to create a new file.  For Mac, type `touch hello.txt`
-9. You will see this file inside of Visual Studio code.
-10. Inside of the file type your name and save the file.
-11. Go back to the terminal and type `cat hello.txt`. ![image](https://github.com/EmeryCSI/CSI248F23_GuidedActivity1/assets/90283966/21175413-3067-4a5d-8e6e-4b6c1d8975e1)
+    ```powershell
+    cd ..
+    ```
 
-12. Take a screenshot of the output and save the file inside of the screenshots folder.
-13. Type `git add .` to stage all updated files.
-14. Type `git status` to view all staged files.
-15. Type `git commit -m "Part 1 Complete"`.
-16. Type `git push` to push the changes to GitHub.
+9. `cd ~` will take you to what is referred to as the home folder. This is your windows users folder located at C:\Users\YourUserName\
+10. `cd \` will take you to the root folder of your hard drive or C:\
+11. When using cd to change folders you can use the `tab` key to auto complete a command. For Example let's say I wanted to navigate to C:\RTC\CSI-244\Week1\. I could start by typing `cd C:\R` and then hit `tab`. Powershell will try to find a Folder inside of C:\ that begins with the letter R. If none exists there will be no suggestion, if more than one exists than it will choose the first alphabetically. I can then repeat the processs for an folders within C:\RTC\
+12. This will vary based on your file structure but my command could look something like this cd c:\R `tab to complete` Then type C `tab to complete` then W `tab to complete`
+13. Getting used to this takes some time but it is a huge time saver and will cut down on typos.
+14. After you have cloned this repository navigate to your local repository using the cd command.
+15. Open the repository in Visual Studio Code by typing `code .`.
+16. Open the terminal in Visual Studio Code by hitting ctrl + \` or cmd + \` on mac.
+17. This is powershell running inside of Visual Studio Code.
+18. Create a new folder called myfiles with the mkdir command (make directory)
+
+    ```powershell
+    mkdir myfiles
+    ```
+19. Run the ls (list) command to see your newly created folder.
+20. cd into the myfiles directory
+
+    ```powershell
+    cd myfiles
+    ```
+21. Create a new text file using the terminal. This command will create a new file named hello.txt
+
+    ```powershell
+    new-item hello.txt`
+    ```
+22. To open the new text file inside of visual studio code type
+
+    ```powershell
+    code hello.txt
+    ```
+
+23. Inside of the file type your name and save the file.
+24. Go back to the terminal and type `cat hello.txt`.
+25. Notice that your name has been displayed in the console.
+30. Take a screenshot of the output and save the file inside of the screenshots folder.
+31. Type `git add .` to stage all updated files.
+32. Type `git status` to view all staged files.
+33. Type `git commit -m "Part 1 Complete"`.
+34. Type `git push` to push the changes to GitHub.
 
 ## Guided Activity Part 2 Node NVM and Node
 
