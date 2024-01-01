@@ -34,7 +34,7 @@ We will complete this assignment together in class. If you are having problems w
 12. This will vary based on your file structure but my command could look something like this cd c:\R `tab to complete` Then type C `tab to complete` then W `tab to complete`
 13. Getting used to this takes some time but it is a huge time saver and will cut down on typos.
 14. After you have cloned this repository navigate to your local repository using the cd command.
-15. Open the repository in Visual Studio Code by typing `code .`.
+15. Open the repository in Visual Studio Code by typing `code .`
 16. Open the terminal in Visual Studio Code by hitting ctrl + \` or cmd + \` on mac.
 17. This is powershell running inside of Visual Studio Code.
 18. Create a new folder called myfiles with the mkdir command (make directory)
