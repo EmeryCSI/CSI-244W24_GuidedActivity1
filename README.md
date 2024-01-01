@@ -6,7 +6,7 @@
     <h3 align="center">Guided Activity 1</h3>
 </div>
 
-This repository is a part of CSI-248 at Renton Technical College.
+This repository is a part of CSI-244 at Renton Technical College.
 
 ## Guided Activity Part 1 Using the Command Line
 We will complete this assignment together in class. If you are having problems with this assignment please refer to the lecture recording.
