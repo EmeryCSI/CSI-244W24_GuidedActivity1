@@ -9,7 +9,7 @@
 This repository is a part of CSI-244 at Renton Technical College.
 
 ## Guided Activity Part 1 Using the Command Line
-We will complete this assignment together in class. If you are having problems with this assignment please refer to the lecture recording.
+We will complete the first Guided Activity together in class. If you are having problems with this assignment please refer to the lecture recording.
 
 1. Clone the repository to your local machine.
 2. Make note of the folder where you cloned the repository.
